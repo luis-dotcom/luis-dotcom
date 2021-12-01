@@ -1,0 +1,172 @@
+*{
+    margin: 0px;
+    padding:  0px;
+}
+
+.main{
+    width: 35%;
+    margin: 0 auto;
+    margin-top: 160px;
+}
+
+
+body{
+    background-image: url(https://souzamarques.br/wp/wp-content/uploads/2017/06/header-posgraduacao-saude-analise-clinica_bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#login-box{
+    background-color: #032d50;
+    width:100%;
+    height: 260px;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+#login-box2{
+    background-color: #032d50;
+    width:100%;
+    height: 380px;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+#login-box-interno{
+    width:95%;
+    height: 95%;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    top: 5px;
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow:0px 0px 5px black;
+    overflow: hidden;
+}
+#login-box-label{
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f2f2f2+0,98c4d6+99 */
+background: #f1f1f1; /* Old browsers */
+background: -moz-linear-gradient(top,  #f2f2f2 0%, #98c4d6 99%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #f2f2f2 0%,#98c4d6 99%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #f2f2f2 0%,#98c4d6 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f2f2', endColorstr='#98c4d6',GradientType=0 ); /* IE6-9 */
+
+
+    border-bottom: 1px solid white;
+    box-shadow: 1px 0px 3px black;
+    text-shadow: 1px 0px 1px rgb(7, 4, 4);
+    height: 45px;
+    text-align: center;
+    font-family: calibri,Helvetica ;
+    font:bold 14px/45px  sans-serif;
+    color:rgb(0, 0, 0);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#login-box-label img{
+    width: 150px;
+    height: 45x;
+}
+
+.input-div{
+    margin: 0 auto;
+    padding: 3%;
+    background-color: white;
+    border-radius: 3px;
+    width: 80%;
+    padding-top: 0px;
+}
+
+.input-div input{
+    width: 80%;
+    height: 35px;
+    padding-left: 5px;
+    font:normal 13px sans-serif;
+    color:#0c0808;
+    border-radius: 3px;
+    border: 2px solid #bfc4c6;
+    outline:none;
+}
+.imput-div:hover{
+    background-color: #e0f1fc;
+}
+.imput-div:hover input{
+    border-color: #7dc6dd;
+}
+#input-senha{
+    margin-top: -10px;
+}
+#botoes{
+    width: 75%;
+    margin-left: 25px;
+}
+#botao{
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ccd9ea+0,f9f9f9+2,5c86a8+100 */
+background: #2073e0; /* Old browsers */
+background: -moz-linear-gradient(top,  #ccd9ea 0%, #f9f9f9 2%, #5c86a8 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #ccd9ea 0%,#f9f9f9 2%,#5c86a8 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #ccd9ea 0%,#f9f9f9 2%,#5c86a8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ccd9ea', endColorstr='#5c86a8',GradientType=0 ); /* IE6-9 */
+    float: right;
+    background-color: #25DBF8;
+    padding: 5px 15px;
+    font:bold 12px sans-serif;
+    border-radius: 20px;
+    text-shadow: 0px 1px width;
+    border:1px solid #9eb9c3;
+
+}
+#botao:hover{
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#5c86a8+0,f9f9f9+98,ccd9ea+100 */
+background: #5c86a8; /* Old browsers */
+background: -moz-linear-gradient(top,  #5c86a8 0%, #f9f9f9 98%, #ccd9ea 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #5c86a8 0%,#f9f9f9 98%,#ccd9ea 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #5c86a8 0%,#f9f9f9 98%,#ccd9ea 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5c86a8', endColorstr='#ccd9ea',GradientType=0 ); /* IE6-9 */
+
+    cursor: pointer;
+}
+#lembrar-senha{
+    font: normal 12px sans-serif;
+}
+
+.botao2{
+    margin-left: 10px;
+}
+
+#botao1{
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ccd9ea+0,f9f9f9+2,5c86a8+100 */
+background: #2073e0; /* Old browsers */
+background: -moz-linear-gradient(top,  #ccd9ea 0%, #f9f9f9 2%, #5c86a8 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #ccd9ea 0%,#f9f9f9 2%,#5c86a8 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #ccd9ea 0%,#f9f9f9 2%,#5c86a8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ccd9ea', endColorstr='#5c86a8',GradientType=0 ); /* IE6-9 */
+    float: left;
+    background-color: #25DBF8;
+    padding: 5px 15px;
+    font:bold 12px sans-serif;
+    border-radius: 20px;
+    text-shadow: 0px 1px width;
+    border:1px solid #9eb9c3;
+
+}
+
+
+@media (max-width: 780px){
+    .main{
+        width: 70%;
+    }
+    .login-box{
+        width: 100%;
+    }
+}
+
+@media (max-width: 600px){
+    .main{width: 80%;}
+    .login-box{ width: 100%;}
+}
+
+@media (max-width: 345px){
+    p{ font-size: small;}
+    .main{width: 90%;}
+}
+

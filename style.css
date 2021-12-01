@@ -1,0 +1,36 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+html{font-size: 62.5;}
+
+/*MENU*/
+.menu{
+    display:flex;
+    width: 100%;
+    background-color: #98c4d6;
+    justify-content: flex-end;
+    height: 45px;
+    margin: 0 auto;
+    border-style: solid;
+    border-top: none;
+    border-width: 2px;
+    border-left: none;
+}
+
+.box-menu ul{
+    display: inline-flex;
+    list-style: none; 
+}
+
+.box-menu ul li{
+    margin-right: 10px; 
+    padding: 2px;
+}
+
+.box-menu ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+    text-align: center;
+}
